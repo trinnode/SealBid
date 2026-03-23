@@ -1,0 +1,17 @@
+node_modules/
+dist/
+artifacts/
+cache/
+typechain-types/
+coverage/
+.env
+.env.local
+*.log
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+.github
+frontend/check-console.cjs
+frontend/check-console-2.mjs
+GUIDE.md
+DEMO_VIDEO.md

@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile contracts",
+      "type": "shell",
+      "command": "pnpm compile",
+      "group": "build",
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Run tests",
+      "type": "shell",
+      "command": "pnpm test",
+      "group": "test",
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Start frontend dev server",
+      "type": "shell",
+      "command": "cd frontend && pnpm dev",
+      "group": "build",
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "isBackground": true
+    },
+    {
+      "label": "Deploy to Arbitrum Sepolia",
+      "type": "shell",
+      "command": "pnpm deploy:arbitrum",
+      "group": "none",
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Deploy to Base Sepolia",
+      "type": "shell",
+      "command": "pnpm deploy:base",
+      "group": "none",
+      "presentation": { "reveal": "always", "panel": "shared" }
+    }
+  ]
+}

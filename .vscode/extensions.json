@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "NomicFoundation.hardhat-solidity",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "bradlc.vscode-tailwindcss",
+    "ms-vscode.vscode-typescript-next",
+    "christian-kohler.path-intellisense",
+    "usernamehw.errorlens",
+    "eamodio.gitlens"
+  ]
+}
