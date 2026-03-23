@@ -1,4 +1,4 @@
-import SealBidABI from "../../../artifacts/contracts/SealBid.sol/SealBid.json";
+import SealBidABI from "./SealBid.abi.json";
 import { getAddress, isAddress } from "viem";
 
 export const SEALBID_ABI = SealBidABI.abi;
