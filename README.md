@@ -1,5 +1,24 @@
 # SealBid
 
+<p align="center">
+	<img src="frontend/public/favicon.svg" alt="SealBid Logo" width="96" height="96" />
+</p>
+
+<p align="center">
+	<img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity" />
+	<img src="https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black" alt="Hardhat" />
+	<img src="https://img.shields.io/badge/Fhenix-4B2AFF?style=for-the-badge" alt="Fhenix" />
+	<img src="https://img.shields.io/badge/CoFHE-0F172A?style=for-the-badge" alt="CoFHE" />
+	<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+	<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+	<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+	<img src="https://img.shields.io/badge/wagmi-1C1C1C?style=for-the-badge" alt="wagmi" />
+	<img src="https://img.shields.io/badge/viem-1C1C1C?style=for-the-badge" alt="viem" />
+	<img src="https://img.shields.io/badge/RainbowKit-FF4FA3?style=for-the-badge" alt="RainbowKit" />
+	<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+	<img src="https://img.shields.io/badge/Base-0052FF?style=for-the-badge&logo=base&logoColor=white" alt="Base" />
+</p>
+
 SealBid is a private sealed bid auction application built with Fhenix FHE.
 
 Users submit encrypted bids from the browser. The contract computes the highest bid on encrypted state. During the auction, bid values remain private. At the end, only the highest bid amount is revealed.
@@ -109,29 +128,14 @@ pnpm deploy:base
 
 Set these values in frontend .env.local to match the deployed contract.
 
-VITE_CHAIN_ID=84532
-VITE_CONTRACT_ADDRESS=0x9847d973FD671DCE663a2e325D97c1E7d49c04CF
-VITE_SEALBID_ADDRESS_84532=0x9847d973FD671DCE663a2e325D97c1E7d49c04CF
+```VITE_CHAIN_ID=84532
+```
+```VITE_CONTRACT_ADDRESS=0x9847d973FD671DCE663a2e325D97c1E7d49c04CF
+```
+```VITE_SEALBID_ADDRESS_84532=0x9847d973FD671DCE663a2e325D97c1E7d49c04CF
+```
 
-## Buildathon Context
-
-This project is built for the Fhenix Privacy by Design dApp Buildathon on Akindo.
-
-1. Grant total: 20000 USDC
-2. Pool: 20000 USDC
-3. Distribution network: Ethereum
-4. Category: Unlimited
-5. Tags: Solidity, EVM, privacy, Arbitrum, Base
-
-Judging focus
-
-1. Privacy Architecture
-2. Innovation and Originality
-3. User Experience
-4. Technical Execution
-5. Market Potential
-
-## Repository And Community
+## FHENIX Repository And Community
 
 1. Fhenix GitHub: https://github.com/FhenixProtocol
 2. Buildathon community: https://t.me/+rA9gI3AsW8c3YzIx
