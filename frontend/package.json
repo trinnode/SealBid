@@ -1,0 +1,47 @@
+{
+  "name": "sealbid-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:tfhe-wasm": "node scripts/prepareTfheWasm.mjs",
+    "predev": "pnpm prepare:tfhe-wasm",
+    "prebuild": "pnpm prepare:tfhe-wasm",
+    "pretypecheck": "pnpm prepare:tfhe-wasm",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cofhe/abi": "^0.4.0",
+    "@cofhe/react": "^0.4.0",
+    "@cofhe/sdk": "^0.4.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@heroicons/react": "^2.2.0",
+    "@rainbow-me/rainbowkit": "^2.0.0",
+    "@tanstack/react-query": "^5.0.0",
+    "clsx": "^2.0.0",
+    "ethers": "^6.16.0",
+    "fhenixjs": "^0.4.1",
+    "framer-motion": "^12.38.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-router-dom": "^6.0.0",
+    "viem": "^2.0.0",
+    "wagmi": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.4.0",
+    "vite": "^5.4.0",
+    "vite-plugin-top-level-await": "^1.6.0",
+    "vite-plugin-wasm": "^3.6.0"
+  }
+}
